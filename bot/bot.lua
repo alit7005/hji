@@ -94,23 +94,13 @@ function create_config( )
 	"lock-fosh"
 	
  },
-    sudo_users = {310083510},
+    sudo_users = {224228004,314146298},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》bom_bang v3
-
-🔰Our channel :
-》@sudo_monsters《
-
-🔰Our channel2 :
-》@bom_bang_team《
-
-🔰Our channel3 :
-》@bombangteam《
-
-🔰Our website :
-》http://telebombang2018
+    info_text = [[
+		Sudo:
+		@omid_dd3
 ]],
   }
   serialize_to_file(config, './data/config.lua')
